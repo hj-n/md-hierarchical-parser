@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jeonhyun97/md-hierarchical-parser#readme",
   "dependencies": {
-    "md-mdast": "^3.4.0"
+    "md-mdast": "^3.4.0",
+    "stack-lifo": "^0.1.6"
   }
 }

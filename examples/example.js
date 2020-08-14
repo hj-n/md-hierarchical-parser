@@ -5,10 +5,16 @@ let mdParser = require('../lib/index')
 let samplePath = "test/md/sample1.md"
 let resultPath = "test/result/sample.json"
 
-async function writeTestFile()  {
-    const result = await mdParser.run(samplePath, true);
-    console.log(result);
+async function writeJsonFile() {
+    const result = await mdParser.run(samplePath, true, true);
     fs.writeFile(resultPath, result, () => {});
+    console.log("SUCEESS!!")
 }
 
-writeTestFile();
+async function printJson() {
+    const result = await mdParser.run(samplePath, true, false);
+    console.log(result)
+}
+
+printJson()
+writeJsonFile()
