@@ -24,6 +24,5 @@
   "dependencies": {
     "md-mdast": "^3.4.0",
     "stack-lifo": "^0.1.6"
-  },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  }
 }
