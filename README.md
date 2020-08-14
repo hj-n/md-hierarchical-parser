@@ -5,9 +5,8 @@ This parser parses markdown and generates JSON structure with hierarchical info.
 
 ### Install 
 ```sh
-npm install md-hierarchical-parser
+npm i md-hierarchical-parser
 ```
-(yet published...)
 
 ### Example
 ```javascript
