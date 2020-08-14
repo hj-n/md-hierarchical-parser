@@ -4,7 +4,9 @@
 This parser parses markdown and generates JSON structure following MDAST form, with structural info included. The parser is implemented based on [streamich/md-mdast](https://github.com/streamich/md-mdast).
 
 ### Install 
-`npm install md-hierarchical-parser`
+```sh
+npm install md-hierarchical-parser
+```
 (yet published...)
 
 ### Example
