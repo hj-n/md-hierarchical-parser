@@ -24,3 +24,46 @@ Reads markdown file in the `path` and generates json object representing the str
 
 - `path`: denotes the path to the markdown
 - `isString`: if false, returns JSON object. Else, returns stringified value. Default value=`true`
+
+### Example
+
+Markdown file 
+
+```markdown
+## Header 2
+
+paragraph 1
+
+### Header 3
+
+paragraph 2
+
+#### Header 4
+
+- first
+- second
+- third
+
+paragraph 3
+
+##### Header 5
+
+`print("hello world")`
+
+## Header 2
+
+```
+
+```
+    ├── heading
+    │   ├── paragraph
+    │   ├── heading
+    │   │   ├── paragraph
+    │   │   ├── heading
+    │   │   │   ├── list
+    │   │   │   ├── paragraph
+    │   │   │   ├── heading
+    │   │   │   │   ├── code
+    ├── heading
+    
+```
