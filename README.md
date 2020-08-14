@@ -1,4 +1,4 @@
-# Markdoen Hierarchical Parser
+# Markdown Hierarchical Parser
 [MDAST](https://github.com/syntax-tree/mdast) well describes the syntax and structure of markdown, but it has a single problem - there are no hierarchical relations between headings. It is obvious the `h2` following `h1` is the children of `h1`, but MDAST treats them as the same heading and just gives depth info as an attribute. 
 
 This parser parses markdown and generates JSON structure with hierarchical info. The parser is implemented based on [streamich/md-mdast](https://github.com/streamich/md-mdast).
@@ -27,7 +27,7 @@ Reads markdown file in the `path` and generates json object representing the str
 
 ### Example
 
-Markdown file 
+.md file:
 
 ```markdown
 ## Header 2
@@ -53,6 +53,8 @@ paragraph 3
 ## Header 2
 
 ```
+
+will be converted to JSON which follows below structure:
 
 ```
     ├── heading
