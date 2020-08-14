@@ -1,0 +1,24 @@
+{
+  "name": "md-hierarchical-parser",
+  "version": "1.0.0",
+  "description": "parser which generates parsed hierarchical structure of markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeonhyun97/md-hierarchical-parser.git"
+  },
+  "keywords": [
+    "markdown",
+    "parser",
+    "json"
+  ],
+  "author": "Hyeon Jeon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeonhyun97/md-hierarchical-parser/issues"
+  },
+  "homepage": "https://github.com/jeonhyun97/md-hierarchical-parser#readme"
+}
