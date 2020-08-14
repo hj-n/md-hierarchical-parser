@@ -15,7 +15,7 @@
     "parser",
     "json"
   ],
-  "author": "Hyeon Jeon",
+  "author": "Hyeon Jeon <jeonhyun97@gmail.com> (http://hyeonjeon.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jeonhyun97/md-hierarchical-parser/issues"
