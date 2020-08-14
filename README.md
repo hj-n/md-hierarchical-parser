@@ -11,18 +11,19 @@ npm i md-hierarchical-parser
 ### Example
 ```javascript
 let mdParser = require('md-hierarchical-parser')
-await mdParser.run("path/to/markdown.md", true)
+await mdParser.run("path/to/markdown.md", true, true)
 ```
 
 ### Description
 
 ```javascript
-run(path, isString=false)
+run(path, isHierarchy = true, isString=false)
 ```
 Reads markdown file in the `path` and generates json object representing the structure. 
 
 - `path`: denotes the path to the markdown
-- `isString`: if false, returns JSON object. Else, returns stringified value. Default value=`true`
+- `isHierarchy`: iftrue, returns JSON with hierarchy structure. Else, return vanilla MDAST. Default value=`true`
+- `isString`: if false, returns JSON object. Else, returns stringified value. Default value=`false`
 
 ### Example
 
